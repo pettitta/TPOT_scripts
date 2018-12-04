@@ -14,7 +14,7 @@ import os
 group = "adapt_lab"
 study = "TPOT"
 PI = "Allen"
-
+scriptsFolder = "PROP_scripts"
 
 # The following variables are used in the main script and need to be defined here. 
 # They need to exist prior to running the script
@@ -23,7 +23,7 @@ PI = "Allen"
 parentdir = os.path.join(os.sep, "projects", group, "shared", study) # folder that contains bidsdir and codedir
 dicomdir = os.path.join(os.sep, "projects", "lcni", "dcm", group, PI, study)
 bidsdir = os.path.join(parentdir, "bids_data") # where the niftis will be put
-codedir = os.path.join(parentdir, "PROP_scripts", "org", "conversion") # Contains subject_list.txt, config file, and dcm2bids_batch.py
+codedir = os.path.join(parentdir, scriptsFolder, "org", "conversion") # Contains subject_list.txt, config file, and dcm2bids_batch.py
 logdir = os.path.join(codedir, "logs_helper")
 
 # Log files
