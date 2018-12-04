@@ -11,8 +11,9 @@
 import os
 # Set study info (may need to change for your study)
 # These variables are used only in this file for paths. Can omit if wanted.
-group = "sanlab"
-study = "PROP"
+group = "adapt_lab"
+study = "TPOT"
+PI = "Allen"
 
 
 # The following variables are used in the main script and need to be defined here. 
@@ -20,7 +21,7 @@ study = "PROP"
 
 # Directories
 parentdir = os.path.join(os.sep, "projects", group, "shared", study) # folder that contains bidsdir and codedir
-dicomdir = os.path.join(os.sep, "projects", "lcni", "dcm", group, "Berkman", study)
+dicomdir = os.path.join(os.sep, "projects", "lcni", "dcm", group, PI, study)
 bidsdir = os.path.join(parentdir, "bids_data") # where the niftis will be put
 codedir = os.path.join(parentdir, "PROP_scripts", "org", "conversion") # Contains subject_list.txt, config file, and dcm2bids_batch.py
 logdir = os.path.join(codedir, "logs_helper")
@@ -30,7 +31,7 @@ outputlog = os.path.join(logdir, "outputlog_helper.txt")
 errorlog = os.path.join(logdir, "errorlog_helper.txt")
 
 # Test subject
-test_subject = "PROOP006_20180905_101506" # Name of a directory that contains DICOMS for one participant
+test_subject = "TPOT002_20160923" # Name of a directory that contains DICOMS for one participant
 
 # Run on local machine (run_local = True) or high performance cluster with slurm (run_local = False)
 run_local = False
