@@ -22,15 +22,16 @@ from datetime import datetime
 # Set study info 
 # These variables are used only in the config file path names 
 # and can be commented out if not needed.
-group = "sanlab"
-study = "PROP"
+group = "adapt_lab"
+study = "TPOT"
+PI = "Allen"
 
 
 # Set directories
 # These variables are used in the main script and need to be defined here.
 # They need to exist prior to running the script (with the exception of `image` 
 # which can be set equal to "NA" if you are running the script locally)
-dicomdir = os.path.join(os.sep, "projects", "lcni", "dcm", group, "Berkman", study)
+dicomdir = os.path.join(os.sep, "projects", "lcni", "dcm", group, PI, study)
 codedir = os.path.join(os.sep, "projects", group, "shared", study, "PROP_scripts", "org", "conversion") # Contains subject_list.txt, config file, and dcm2bids_batch.py
 configfile = os.path.join(codedir, "study_config.json")  # path to and name of config file
 image = os.path.join(os.sep, "projects", group, "shared", "containers", "Dcm2Bids-master.simg")
