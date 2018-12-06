@@ -17,11 +17,13 @@ duplicates:
 
 TPOT013_20161109,013,1
 TPOT013_20170407,013,1
-(no 12)
+Came in twice because personalized affect task broke
+1st one will have usable MPRAGE, resting States,  affect labeling, diffusion’s and EPI
 
 TPOT030_20170224,030,1
 TPOT030_20170407,030,1
-(no 31)
+Came in twice because personalized affect task broke
+1st one will have usable MPRAGE, resting States,  affect labeling, diffusion’s and EPI
 
 TPOT039_20170117,039,1
 TPOT039_20170120,039,1

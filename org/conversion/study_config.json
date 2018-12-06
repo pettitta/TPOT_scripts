@@ -4,25 +4,55 @@
             "dataType": "anat",
             "modalityLabel": "T1w",
             "criteria": {
-                "SeriesDescription": "mprage"
+                "SeriesDescription": "mprage_p2"
             }
         },
         {
             "dataType": "func",
             "modalityLabel": "bold",
-            "customLabels": "task-PROP1",
+            "customLabels": "task-Resting1",
             "criteria": {
-                "SeriesDescription": "PROP_1"
+                "SeriesDescription": "Resting_1"
             }
         },
         {
             "dataType": "func",
             "modalityLabel": "bold",
-            "customLabels": "task-PROP2",
+            "customLabels": "task-Resting2",
             "criteria": {
-                "SeriesDescription": "PROP_2"
+                "SeriesDescription": "Resting_2"
             }
         },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-Video1",
+            "criteria": {
+                "SeriesDescription": "Video_1"
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-Affect1",
+            "criteria": {
+                "SeriesDescription": "Affect_1"
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-Affect2",
+            "criteria": {
+                "SeriesDescription": "Affect_2"
+            }
+        },
+        {
+            "dataType": "dwi",
+            "modalityLabel": "XXX",
+            "criteria": {
+                "SeriesDescription": "se_epi_fieldmap_ap"
+            },
         {
             "dataType": "fmap",
             "modalityLabel": "epi",
