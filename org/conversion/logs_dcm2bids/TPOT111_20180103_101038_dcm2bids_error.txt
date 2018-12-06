@@ -86,7 +86,7 @@ compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/TPOT/bids_data/tm
 Convert 1 DICOM as /projects/adapt_lab/shared/TPOT/bids_data/tmp_dcm2bids/sub-111_ses-1/004_TPOT111_20180103_101038_AAHScout_20180103101039b (162x162x1x1)
 Warning: Check that 2D images are not mirrored.
 compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/TPOT/bids_data/tmp_dcm2bids/sub-111_ses-1/004_TPOT111_20180103_101038_AAHScout_20180103101039b.nii"
-Conversion required 8.341164 seconds (0.334863 for core code).
+Conversion required 9.499599 seconds (0.357493 for core code).
 
 INFO:dcm2bids:
 INFO:dcm2bids:Sidecars matching:
@@ -101,8 +101,9 @@ INFO:dcm2bids:NO MATCH        003_TPOT111_20180103_1..t_20180103101039b.json
 INFO:dcm2bids:NO MATCH        004_TPOT111_20180103_1..ut_20180103101039.json
 INFO:dcm2bids:NO MATCH        004_TPOT111_20180103_1..t_20180103101039a.json
 INFO:dcm2bids:NO MATCH        004_TPOT111_20180103_1..t_20180103101039b.json
-INFO:dcm2bids:NO MATCH        005_TPOT111_20180103_1.._1_20180103101039.json
+INFO:dcm2bids:MATCH           005_TPOT111_20180103_1.._1_20180103101039.json
 INFO:dcm2bids:
 INFO:dcm2bids:Checking if a description matches several sidecars ...
 INFO:dcm2bids:
 INFO:dcm2bids:moving acquisitions into BIDS output directory
+INFO:dcm2bids:overwriting: sub-111_ses-1_task-Affect1_bold
