@@ -10,7 +10,7 @@
         {
             "dataType": "func",
             "modalityLabel": "bold",
-            "customLabels": "task-Resting1",
+            "customLabels": "task-rest1",
             "criteria": {
                 "SeriesDescription": "Resting_1"
             }
@@ -18,7 +18,7 @@
         {
             "dataType": "func",
             "modalityLabel": "bold",
-            "customLabels": "task-Resting2",
+            "customLabels": "task-rest2",
             "criteria": {
                 "SeriesDescription": "Resting_2"
             }
@@ -26,7 +26,7 @@
         {
             "dataType": "func",
             "modalityLabel": "bold",
-            "customLabels": "task-Video1",
+            "customLabels": "task-video",
             "criteria": {
                 "SeriesDescription": "Video_1"
             }
@@ -34,7 +34,7 @@
         {
             "dataType": "func",
             "modalityLabel": "bold",
-            "customLabels": "task-Affect1",
+            "customLabels": "task-affect1",
             "criteria": {
                 "SeriesDescription": "Affect_1"
             }
@@ -42,7 +42,7 @@
         {
             "dataType": "func",
             "modalityLabel": "bold",
-            "customLabels": "task-Affect2",
+            "customLabels": "task-affect2",
             "criteria": {
                 "SeriesDescription": "Affect_2"
             }
@@ -50,7 +50,7 @@
         {
             "dataType": "dwi",
             "modalityLabel": "MR",
-            "customLabels": "i",
+            "customLabels": "dir-i",
             "criteria": {
                 "SeriesDescription": "diff_mb2_g2_64dirs_2mm_rl",
                 "PhaseEncodingDirection": "i"
@@ -59,7 +59,7 @@
         {
             "dataType": "dwi",
             "modalityLabel": "MR",
-            "customLabels": "i-",
+            "customLabels": "dir-i-",
             "criteria": {
                 "SeriesDescription": "diff_mb2_g2_64dirs_2mm_lr",
                 "PhaseEncodingDirection": "i-" 
