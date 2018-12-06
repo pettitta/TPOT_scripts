@@ -114,7 +114,7 @@ slices stacked despite varying acquisition numbers (if this is not desired pleas
 Warning: Saving 65 DTI gradients. Validate vectors (images are not axial slices).
 Convert 65 DICOM as /projects/adapt_lab/shared/TPOT/bids_data/tmp_dcm2bids/sub-126_ses-1/013_TPOT126_20180405_110929_diff_mb2_g2_64dirs_2mm_lr_20180405110929 (90x104x72x65)
 compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/TPOT/bids_data/tmp_dcm2bids/sub-126_ses-1/013_TPOT126_20180405_110929_diff_mb2_g2_64dirs_2mm_lr_20180405110929.nii"
-Conversion required 376.630517 seconds (8.100254 for core code).
+Conversion required 402.777677 seconds (8.746249 for core code).
 
 INFO:dcm2bids:
 INFO:dcm2bids:Sidecars matching:
@@ -144,13 +144,3 @@ INFO:dcm2bids:
 INFO:dcm2bids:Checking if a description matches several sidecars ...
 INFO:dcm2bids:
 INFO:dcm2bids:moving acquisitions into BIDS output directory
-INFO:dcm2bids:overwriting: sub-126_ses-1_T1w
-INFO:dcm2bids:overwriting: sub-126_ses-1_task-Resting1_bold
-INFO:dcm2bids:overwriting: sub-126_ses-1_task-Resting2_bold
-INFO:dcm2bids:overwriting: sub-126_ses-1_task-Video1_bold
-INFO:dcm2bids:overwriting: sub-126_ses-1_task-Affect1_bold
-INFO:dcm2bids:overwriting: sub-126_ses-1_task-Affect2_bold
-INFO:dcm2bids:overwriting: sub-126_ses-1_i_MR
-INFO:dcm2bids:overwriting: sub-126_ses-1_i-_MR
-INFO:dcm2bids:overwriting: sub-126_ses-1_dir-ap_epi
-INFO:dcm2bids:overwriting: sub-126_ses-1_dir-pa_epi

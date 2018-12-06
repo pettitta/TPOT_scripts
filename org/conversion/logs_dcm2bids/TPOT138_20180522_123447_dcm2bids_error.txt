@@ -112,7 +112,7 @@ compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/TPOT/bids_data/tm
 Note: rare 16-bit UNSIGNED integer image. Older tools may require 32-bit conversion
 Convert 1 DICOM as /projects/adapt_lab/shared/TPOT/bids_data/tmp_dcm2bids/sub-138_ses-1/014_TPOT138_20180522_123447_se_epi_fieldmap_pa_20180522123448 (104x104x72x1)
 compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/TPOT/bids_data/tmp_dcm2bids/sub-138_ses-1/014_TPOT138_20180522_123447_se_epi_fieldmap_pa_20180522123448.nii"
-Conversion required 324.994764 seconds (7.354469 for core code).
+Conversion required 288.920363 seconds (6.699945 for core code).
 
 INFO:dcm2bids:
 INFO:dcm2bids:Sidecars matching:
@@ -141,12 +141,3 @@ INFO:dcm2bids:
 INFO:dcm2bids:Checking if a description matches several sidecars ...
 INFO:dcm2bids:
 INFO:dcm2bids:moving acquisitions into BIDS output directory
-INFO:dcm2bids:overwriting: sub-138_ses-1_T1w
-INFO:dcm2bids:overwriting: sub-138_ses-1_task-Resting1_bold
-INFO:dcm2bids:overwriting: sub-138_ses-1_task-Resting2_bold
-INFO:dcm2bids:overwriting: sub-138_ses-1_task-Affect1_bold
-INFO:dcm2bids:overwriting: sub-138_ses-1_task-Affect2_bold
-INFO:dcm2bids:overwriting: sub-138_ses-1_i_MR
-INFO:dcm2bids:overwriting: sub-138_ses-1_i-_MR
-INFO:dcm2bids:overwriting: sub-138_ses-1_dir-ap_epi
-INFO:dcm2bids:overwriting: sub-138_ses-1_dir-pa_epi

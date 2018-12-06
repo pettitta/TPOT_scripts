@@ -123,7 +123,7 @@ compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/TPOT/bids_data/tm
 Convert 1 DICOM as /projects/adapt_lab/shared/TPOT/bids_data/tmp_dcm2bids/sub-011_ses-1/002_TPOT011_20161024_AAHScout_20161024151754c (162x162x1x1)
 Warning: Check that 2D images are not mirrored.
 compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/TPOT/bids_data/tmp_dcm2bids/sub-011_ses-1/002_TPOT011_20161024_AAHScout_20161024151754c.nii"
-Conversion required 397.045555 seconds (8.705249 for core code).
+Conversion required 382.729012 seconds (9.349884 for core code).
 
 INFO:dcm2bids:
 INFO:dcm2bids:Sidecars matching:
@@ -154,20 +154,7 @@ INFO:dcm2bids:MATCH           017_TPOT011_20161024_s..ap_20161024151754.json
 INFO:dcm2bids:MATCH           018_TPOT011_20161024_s..pa_20161024151754.json
 INFO:dcm2bids:
 INFO:dcm2bids:Checking if a description matches several sidecars ...
-INFO:dcm2bids:'task-Affect1_bold' has several runs
-INFO:dcm2bids:'task-Video1_bold' has several runs
+INFO:dcm2bids:'task-affect1_bold' has several runs
+INFO:dcm2bids:'task-video_bold' has several runs
 INFO:dcm2bids:
 INFO:dcm2bids:moving acquisitions into BIDS output directory
-INFO:dcm2bids:overwriting: sub-011_ses-1_T1w
-INFO:dcm2bids:overwriting: sub-011_ses-1_task-Resting1_bold
-INFO:dcm2bids:overwriting: sub-011_ses-1_task-Resting2_bold
-INFO:dcm2bids:overwriting: sub-011_ses-1_task-Affect1_run-01_bold
-INFO:dcm2bids:overwriting: sub-011_ses-1_task-Affect1_run-02_bold
-INFO:dcm2bids:overwriting: sub-011_ses-1_task-Affect2_bold
-INFO:dcm2bids:overwriting: sub-011_ses-1_task-Video1_run-01_bold
-INFO:dcm2bids:overwriting: sub-011_ses-1_task-Video1_run-02_bold
-INFO:dcm2bids:overwriting: sub-011_ses-1_task-Video1_run-03_bold
-INFO:dcm2bids:overwriting: sub-011_ses-1_i_MR
-INFO:dcm2bids:overwriting: sub-011_ses-1_i-_MR
-INFO:dcm2bids:overwriting: sub-011_ses-1_dir-ap_epi
-INFO:dcm2bids:overwriting: sub-011_ses-1_dir-pa_epi

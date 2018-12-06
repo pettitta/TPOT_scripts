@@ -114,7 +114,7 @@ compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/TPOT/bids_data/tm
 Convert 1 DICOM as /projects/adapt_lab/shared/TPOT/bids_data/tmp_dcm2bids/sub-026_ses-1/003_TPOT026_20170215_AAHScout_20170215124844b (162x162x1x1)
 Warning: Check that 2D images are not mirrored.
 compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/TPOT/bids_data/tmp_dcm2bids/sub-026_ses-1/003_TPOT026_20170215_AAHScout_20170215124844b.nii"
-Conversion required 354.275010 seconds (7.725582 for core code).
+Conversion required 367.878677 seconds (7.616818 for core code).
 
 INFO:dcm2bids:
 INFO:dcm2bids:Sidecars matching:
@@ -144,13 +144,3 @@ INFO:dcm2bids:
 INFO:dcm2bids:Checking if a description matches several sidecars ...
 INFO:dcm2bids:
 INFO:dcm2bids:moving acquisitions into BIDS output directory
-INFO:dcm2bids:overwriting: sub-026_ses-1_T1w
-INFO:dcm2bids:overwriting: sub-026_ses-1_task-Resting1_bold
-INFO:dcm2bids:overwriting: sub-026_ses-1_task-Resting2_bold
-INFO:dcm2bids:overwriting: sub-026_ses-1_task-Video1_bold
-INFO:dcm2bids:overwriting: sub-026_ses-1_task-Affect1_bold
-INFO:dcm2bids:overwriting: sub-026_ses-1_task-Affect2_bold
-INFO:dcm2bids:overwriting: sub-026_ses-1_i_MR
-INFO:dcm2bids:overwriting: sub-026_ses-1_i-_MR
-INFO:dcm2bids:overwriting: sub-026_ses-1_dir-ap_epi
-INFO:dcm2bids:overwriting: sub-026_ses-1_dir-pa_epi
