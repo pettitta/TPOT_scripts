@@ -47,6 +47,22 @@
                 "SeriesDescription": "Affect_2"
             }
         },
+        // {
+        //     "dataType": "dwi",
+        //     "modalityLabel": "XXX",
+        //     "criteria": {
+        //         "SeriesDescription": "diff_mb2_g2_64dirs_2mm_rl",
+        //         "PhaseEncodingDirection": "i"
+        //     }
+        // },
+        // {
+        //     "dataType": "dwi",
+        //     "modalityLabel": "XXX",
+        //     "criteria": {
+        //         "SeriesDescription": "diff_mb2_g2_64dirs_2mm_lr",
+        //         "PhaseEncodingDirection": "i-" 
+        //     }
+        // },
         {
             "dataType": "fmap",
             "modalityLabel": "epi",
