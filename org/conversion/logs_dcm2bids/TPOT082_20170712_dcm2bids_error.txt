@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/usr/local/bin/dcm2bids", line 87, in <module>
+    sys.exit(main())
+  File "/usr/local/bin/dcm2bids", line 82, in main
+    app = Dcm2bids(**vars(args))
+  File "/usr/local/lib/python2.7/dist-packages/dcm2bids/dcm2bids.py", line 31, in __init__
+    self.config = load_json(config)
+  File "/usr/local/lib/python2.7/dist-packages/dcm2bids/utils.py", line 12, in load_json
+    data = json.load(f)
+  File "/usr/lib/python2.7/json/__init__.py", line 291, in load
+    **kw)
+  File "/usr/lib/python2.7/json/__init__.py", line 339, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 382, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
