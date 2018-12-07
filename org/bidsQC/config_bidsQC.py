@@ -8,8 +8,8 @@ from bidsQC_classes import TimePoint
 # Set study info (change these for your study)
 # These variables are used only in this file for path names.
 # They can be removed if desired.
-group = 'sanlab'
-study = 'PROP'
+group = 'adapt_lab'
+study = 'TPOT'
 
 # Set directories (Check these for your study)
 # These variables are used in the main script and need to be defined here. 
@@ -20,10 +20,11 @@ bidsdir = os.path.join(os.sep, 'projects', group, 'shared', study, 'bids_data') 
 
 # Create a dictionary (the thing below) for each timepoint in your study where the pairs are 'sequence_directory_name' : 'expected_number_runs'
 # Each unique version of a sequence gets its own entry, e.g. 'gng_acq-1' and 'gng_acq-2'
-sequence1 = Sequence('func', {'PROP1': 1, 'PROP2':1})
+sequence1 = Sequence('func', {'affect1': 1, 'affect2':1, 'rest1': 1, 'rest2':1, 'video': 1})
 sequence2 = Sequence('anat', {'T1w':1})
 sequence3 = Sequence('fmap', {'dir-ap':1, 'dir-pa':1})
-timepoint1 = TimePoint('ses-1', [sequence1, sequence2, sequence3])
+sequence4 = Sequence('dwi', {'dir-i':1, 'dir-i-':1})
+timepoint1 = TimePoint('ses-1', [sequence1, sequence2, sequence3, sequence4])
 expected_timepoints = [timepoint1]
 
 
