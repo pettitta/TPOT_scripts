@@ -45,4 +45,5 @@ tasks_to_order = 'task1', 'task2'
 tempdir = os.path.join(bidsdir, 'tmp_dcm2bids')  # holding folder for undesired files
 outputlog = os.path.join(logdir, 'outputlog_bidsQC' + datetime.now().strftime('%Y%m%d-%H%M%S') + '.txt')
 errorlog = os.path.join(logdir, 'errorlog_bidsQC' + datetime.now().strftime('%Y%m%d-%H%M%S') + '.txt')
+runmat = os.path.join(logdir, 'runmat_bidsQC' + datetime.now().strftime('%Y%m%d-%H%M%S') + '.txt')
 derivatives = os.path.join(bidsdir, 'derivatives')  # Where processed data will go
