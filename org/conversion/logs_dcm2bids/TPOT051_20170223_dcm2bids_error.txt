@@ -122,7 +122,7 @@ compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/TPOT/bids_data/tm
 Convert 1 DICOM as /projects/adapt_lab/shared/TPOT/bids_data/tmp_dcm2bids/sub-051_ses-1/003_TPOT051_20170223_AAHScout_20170223122739b (162x162x1x1)
 Warning: Check that 2D images are not mirrored.
 compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/TPOT/bids_data/tmp_dcm2bids/sub-051_ses-1/003_TPOT051_20170223_AAHScout_20170223122739b.nii"
-Conversion required 398.820922 seconds (7.980973 for core code).
+Conversion required 325.456592 seconds (8.167903 for core code).
 
 INFO:dcm2bids:
 INFO:dcm2bids:Sidecars matching:
@@ -150,24 +150,24 @@ INFO:dcm2bids:NO MATCH        004_TPOT051_20170411_A..t_20170411110344a.json
 INFO:dcm2bids:NO MATCH        004_TPOT051_20170411_A..t_20170411110344b.json
 INFO:dcm2bids:NO MATCH        005_TPOT051_20170223_m..p2_20170223122739.json
 INFO:dcm2bids:NO MATCH        005_TPOT051_20170411_m..p2_20170411110344.json
-INFO:dcm2bids:MATCH           006_TPOT051_20170223_m..p2_20170223122739.json
-INFO:dcm2bids:MATCH           007_TPOT051_20170223_R.._1_20170223122739.json
-INFO:dcm2bids:MATCH           008_TPOT051_20170223_R.._2_20170223122739.json
-INFO:dcm2bids:MATCH           009_TPOT051_20170223_A.._1_20170223122739.json
-INFO:dcm2bids:MATCH           010_TPOT051_20170223_A.._2_20170223122739.json
-INFO:dcm2bids:MATCH           011_TPOT051_20170223_Video_1_20170223122739.json
-INFO:dcm2bids:MATCH           012_TPOT051_20170223_Video_1_20170223122739.json
-INFO:dcm2bids:MATCH           013_TPOT051_20170223_s..ap_20170223122739.json
-INFO:dcm2bids:MATCH           014_TPOT051_20170223_s..pa_20170223122739.json
-INFO:dcm2bids:MATCH           015_TPOT051_20170223_Video_1_20170223122739.json
+INFO:dcm2bids:NO MATCH        006_TPOT051_20170223_m..p2_20170223122739.json
+INFO:dcm2bids:NO MATCH        006_TPOT051_20170411_m..p2_20170411110344.json
+INFO:dcm2bids:NO MATCH        007_TPOT051_20170223_R.._1_20170223122739.json
+INFO:dcm2bids:NO MATCH        007_TPOT051_20170411_Video_1_20170411110344.json
+INFO:dcm2bids:NO MATCH        008_TPOT051_20170223_R.._2_20170223122739.json
+INFO:dcm2bids:NO MATCH        009_TPOT051_20170223_A.._1_20170223122739.json
+INFO:dcm2bids:NO MATCH        010_TPOT051_20170223_A.._2_20170223122739.json
+INFO:dcm2bids:NO MATCH        010_TPOT051_20170411_s..ap_20170411110344.json
+INFO:dcm2bids:NO MATCH        011_TPOT051_20170223_Video_1_20170223122739.json
+INFO:dcm2bids:NO MATCH        011_TPOT051_20170411_s..pa_20170411110344.json
+INFO:dcm2bids:NO MATCH        012_TPOT051_20170223_Video_1_20170223122739.json
+INFO:dcm2bids:NO MATCH        013_TPOT051_20170223_s..ap_20170223122739.json
+INFO:dcm2bids:NO MATCH        014_TPOT051_20170223_s..pa_20170223122739.json
+INFO:dcm2bids:NO MATCH        015_TPOT051_20170223_Video_1_20170223122739.json
 INFO:dcm2bids:MATCH           016_TPOT051_20170223_d..rl_20170223122739.json
 INFO:dcm2bids:MATCH           017_TPOT051_20170223_d..rl_20170223122739.json
 INFO:dcm2bids:
 INFO:dcm2bids:Checking if a description matches several sidecars ...
-INFO:dcm2bids:'dir-i_MR' has several runs
-INFO:dcm2bids:'task-video_bold' has several runs
+INFO:dcm2bids:'dir-i_dwi' has several runs
 INFO:dcm2bids:
 INFO:dcm2bids:moving acquisitions into BIDS output directory
-INFO:dcm2bids:overwriting: sub-051_ses-1_T1w
-INFO:dcm2bids:overwriting: sub-051_ses-1_dir-ap_epi
-INFO:dcm2bids:overwriting: sub-051_ses-1_dir-pa_epi
